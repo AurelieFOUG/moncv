@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: "Playfair";
+  src: url("../font/PlayfairDisplay-Regular.ttf"); }
+.fondmenu {
+  background-color: #EFE9DD; }
+
+.fondentete {
+  background-image: url(../img/ordipapiers.jpg);
+  background-size: cover;
+  height: 100vh; }
+
+.titremenu h3 {
+  font-family: "Playfair";
+  color: black;
+  font-size: 30px;
+  width: 100%; }
+
+a .titremenu {
+  width: 100%; }
+
+.boutham {
+  transition: transform 0.5s ease-in-out; }
+  .boutham:hover {
+    transform: rotate(180deg); }
+
+.job, .jobnoir {
+  font-family: "Playfair";
+  text-transform: uppercase;
+  color: white;
+  font-size: 40px; }
+
+.opacite, .opaciteexpe {
+  background: rgba(0, 0, 0, 0.5); }
+
+.titre, .textexpe {
+  font-family: "Playfair";
+  color: white;
+  text-decoration: underline;
+  font-size: 20px; }
+
+.reponse {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px; }
+
+.photo {
+  border: solid 10px white;
+  border-radius: 10px; }
+
+.bouton {
+  background-color: #DE8984;
+  height: 30px;
+  border: solid 4px white;
+  border-radius: 15px;
+  line-height: 15px; }
+
+.jobnoir {
+  color: black; }
+
+.presentation {
+  font-family: 'Montserrat', sans-serif; }
+
+.progress-bar-striped {
+  background-color: #EF6B3E; }
+
+.skill {
+  border: solid 1px gray;
+  height: 15px; }
+
+.relative {
+  position: relative; }
+
+.pourcentagequatrevingt {
+  position: absolute;
+  width: 80%;
+  height: 15px;
+  background-color: #EF6B3E;
+  top: 0;
+  left: 0; }
+
+.relative2 {
+  position: relative; }
+
+.relative3 {
+  position: relative; }
+
+.relative4 {
+  position: relative; }
+
+#progress:after {
+  position: absolute;
+  content: "80%";
+  transform: translate(300px, -25px); }
+
+.pourcentsoixantequinze {
+  position: absolute;
+  width: 75%;
+  height: 15px;
+  background-color: #EF6B3E;
+  top: 0;
+  left: 0; }
+
+.pourcentcinquante {
+  position: absolute;
+  width: 50%;
+  height: 15px;
+  background-color: #EF6B3E;
+  top: 0;
+  left: 0; }
+
+.imgfond {
+  background-image: url(../img/imagemonexpe.jpg);
+  background-size: cover;
+  height: 100vh; }
+
+.textexpe {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none; }
+
+.presentationblc {
+  font-family: 'Montserrat', sans-serif;
+  color: white; }
+
+.opaciteexpe {
+  height: 100vh; }
+
+.jobnoirexpe {
+  font-family: "Playfair";
+  font-size: 20px;
+  color: black; }
+
+.fondfooter {
+  background-color: #77CACE;
+  height: 10vh; }
+
+.test {
+  display: none !important; }
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .fondentete {
+    background-image: url(../img/fondentetetablet.jpeg);
+    background-size: cover; } }
+@media screen and (max-width: 576px) {
+  .job {
+    font-size: 30px; }
+
+  .fondentete {
+    background-image: url(../img/fondentetetablet.jpeg);
+    background-size: cover; } }
+
+/*# sourceMappingURL=style.css.map */
