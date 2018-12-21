@@ -31,7 +31,7 @@ a .titremenu {
   font-family: "Playfair";
   text-transform: uppercase;
   color: white;
-  font-size: 40px; }
+  font-size: 30px; }
 
 .opacite, .opaciteexpe {
   background: rgba(0, 0, 0, 0.5); }
@@ -91,10 +91,28 @@ a .titremenu {
 .relative4 {
   position: relative; }
 
-#progress:after {
+#progresshtml:after, #progressboot:after {
+    position: absolute;
+    content: "80%";
+    transform: translate(300px, -25px); } {
   position: absolute;
   content: "80%";
   transform: translate(300px, -25px); }
+
+#progresscss:after, #progressphp:after, #progressprestashop:after {
+    position: absolute;
+    content: "70%";
+    transform: translate(260px, -25px); }
+
+#progresssymf:after, #progresswp:after {
+    position: absolute;
+    content: "85%";
+    transform: translate(320px, -25px);}
+
+#progressjquery:after {
+    position: absolute;
+    content: "60%";
+    transform: translate(220px, -25px);}
 
 .pourcentsoixantequinze {
   position: absolute;
@@ -113,16 +131,19 @@ a .titremenu {
   left: 0; }
 
 .imgfond {
-  background-image: url(../img/imagemonexpe.jpg);
+  background-image: url(../img/fond9.jpg);
   background-size: cover;
   height: 100vh; }
 
 .textexpe {
   font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 18px;
   text-decoration: none; }
 
 .presentationblc {
   font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
   color: white; }
 
 .opaciteexpe {
